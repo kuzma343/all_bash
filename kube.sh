@@ -48,7 +48,7 @@ sudo systemctl enable kubelet.service
 7
  
 sudo kubeadm config images pull
-sudo kubeadm init --pod-network-cidr=10.10.0.0/16
+sudo kubeadm init --pod-network-cidr=192.168.0.0/24
  
  
  
