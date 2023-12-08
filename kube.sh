@@ -8,8 +8,8 @@ exec bash
  
 sudo nano /etc/hosts
  
-10.0.0.2 master-node  
-10.0.0.3 worker-node1
+192.168.0.109 master-node  
+192.168.0.151 worker-node1
  
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
 overlay
